@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "tuskmod",
+  "version": "${version}",
+  "name": "Tusk - Steel Ball Run",
+  "description": "Tusk, the Stand of Johnny Joestar: Acts 1 to 4 with 16 attacks, an animated stand and golden rotation.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.tuskmod.TuskMod"],
+    "client": ["com.tuskmod.client.TuskModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

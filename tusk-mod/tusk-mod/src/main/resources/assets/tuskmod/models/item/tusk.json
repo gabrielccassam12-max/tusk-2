@@ -1,0 +1,9 @@
+{
+  "parent": "item/generated",
+  "textures": { "layer0": "tuskmod:item/tusk_act1" },
+  "overrides": [
+    { "predicate": { "tuskmod:act": 0.2 }, "model": "tuskmod:item/tusk_act2" },
+    { "predicate": { "tuskmod:act": 0.3 }, "model": "tuskmod:item/tusk_act3" },
+    { "predicate": { "tuskmod:act": 0.4 }, "model": "tuskmod:item/tusk_act4" }
+  ]
+}
